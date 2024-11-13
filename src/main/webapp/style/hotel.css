@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff; /* White container background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #007BFF; /* Blue heading color */
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #007BFF; /* Blue label color */
+}
+
+input[type="text"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    background-color: #fff;
+}
+
+input[type="file"] {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Blue submit button background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styles to further improve the look and feel can be added as needed. */
+
+
+/* Apply a white and blue theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+#page-title {
+    color: #007BFF; /* Blue heading color */
+    text-align: center;
+    margin: 20px 0;
+}
+
+#hotel-table {
+    width: 70%; /* Increase table width to fill more space */
+    margin: 50px auto; /* Center the table on the page */
+    border-collapse: collapse; /* Remove the space between table cells */
+    background-color: #fff; /* White table background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.table-header {
+    background-color: #007BFF; /* Blue header background */
+    color: #fff; /* White header text color */
+}
+
+.table-cell {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.table-row:hover {
+    background-color: #ddd; /* Gray background color on hover */
+}
+
+.table-image {
+    max-width: 100px; /* Set a fixed maximum width for images */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Center the images within their cells */
+    margin: 0 auto;
+}
+
+.button-cell {
+    width: 20%;
+}
+
+.button-form {
+    display: inline-block; /* Keep the forms inline with the table cells */
+    margin: 0;
+}
+
+.button-submit {
+    background-color: #007BFF; /* Blue submit button background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

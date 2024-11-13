@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+width:75%;
+border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:70px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color:#232323;
+}
+
+th {
+    background-color:#00cc66;
+	text-align:center;
+}
+
+td {
+    align-items:center;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+
+form {
+    display: inline;
+}
+
+form input[type="submit"] {
+    background-color: #007bff; /* Blue update button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+form[action*="delete"] input[type="submit"] {
+    background-color: #ff5454; /* Red delete button */
+}
+
+form[action*="delete"] input[type="submit"]:hover {
+    background-color: #c62828; /* Darker red on hover */
+}
+
+
